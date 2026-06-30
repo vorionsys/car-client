@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- 61753b8: Extract `car-client` into its own standalone repository (`vorionsys/car-client`) with tokenless OIDC trusted publishing + provenance. Bump `@vorionsys/shared-constants` to `^2.0.0` (no API change — car-client uses only the `/tiers` subpath, which is unchanged in 2.0.0). Relicensed Apache-2.0.
+
 All notable changes to `@vorionsys/car-client` will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
