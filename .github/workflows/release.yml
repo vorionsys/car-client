@@ -20,9 +20,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Update npm (OIDC trusted publishing requires npm >= 11.5.1)
-        run: npm install -g npm@latest
+          node-version: 24   # ships npm >= 11.5.1 (OIDC trusted publishing); global npm self-update is broken on current runner images
       - run: npm ci
       - run: npm run build
       - run: npm audit signatures
