@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+### Patch Changes
+
+- 25f4000: docs: refresh published README (registry-truth pass — dead links, deprecated install guidance)
+
 ## 1.0.1
 
 ### Patch Changes
