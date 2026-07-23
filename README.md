@@ -441,6 +441,6 @@ Apache-2.0. See [LICENSE](./LICENSE) for details.
 
 ## Links
 
-- [Repository](https://github.com/vorionsys/vorion)
-- [Package directory](https://github.com/vorionsys/vorion/tree/main/packages/car-client)
-- [Issue tracker](https://github.com/vorionsys/vorion/issues)
+- [Repository](https://github.com/vorionsys)
+- [Package directory](https://github.com/vorionsys/car-client)
+- [Issue tracker](https://github.com/vorionsys/car-client/issues)
